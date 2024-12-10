@@ -1,0 +1,5 @@
+.navbar-brand img {
+    height: 400px !important;
+    width: auto;
+    object-fit: contain;
+  }

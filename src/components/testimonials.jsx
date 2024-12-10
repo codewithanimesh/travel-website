@@ -8,30 +8,30 @@ const Testimonials = () => {
     {
       id: 1,
       image: "testimonial-1.jpg",
-      name: "John Doe",
-      location: "New York, USA",
-      review: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+      name: "Takashi Yamamoto",
+      location: "Mumbai, India",
+      review: "INIAD's innovative approach to education has transformed my understanding of technology. The hands-on projects and collaborative environment have prepared me well for my future career."
     },
     {
       id: 2,
       image: "testimonial-2.jpg",
-      name: "Jane Smith",
-      location: "Los Angeles, USA",
-      review: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+      name: "Yuki Tanaka",
+      location: "Delhi, India",
+      review: "The interdisciplinary curriculum at INIAD helped me develop both technical skills and business acumen. The professors are highly knowledgeable and always supportive."
     },
     {
       id: 3,
       image: "testimonial-3.jpg",
-      name: "Mike Johnson",
-      location: "Chicago, USA",
-      review: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+      name: "Sakura Suzuki",
+      location: "Bangalore, India",
+      review: "INIAD's focus on practical learning and industry collaboration provides students with real-world experience. The facilities and resources are cutting-edge."
     },
     {
       id: 4,
       image: "testimonial-4.jpg",
-      name: "Sarah Williams",
-      location: "Miami, USA",
-      review: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+      name: "Hiroshi Sato",
+      location: "Chennai, India",
+      review: "As an educator at INIAD, I'm impressed by our students' enthusiasm for learning and innovation. Our unique educational model truly prepares them for the digital age."
     }
   ];
 
@@ -65,7 +65,7 @@ const Testimonials = () => {
       <div className="container">
         <div className="text-center">
           <h6 className="section-title bg-white text-center text-primary px-3">Testimonial</h6>
-          <h1 className="mb-5">Our Clients Say!!!</h1>
+          <h1 className="mb-5">Our INIAD Community Says!!!</h1>
         </div>
         <div style={{ '.slick-slide': { padding: '0 10px' } }}>
           <Slider {...settings}>

@@ -2,10 +2,10 @@ import React from 'react';
 import Hero from './hero';
 const Team = () => {
   const teamMembers = [
-    { image: "team-1.jpg", delay: "0.1s" },
-    { image: "team-2.jpg", delay: "0.3s" },
-    { image: "team-3.jpg", delay: "0.5s" },
-    { image: "team-4.jpg", delay: "0.7s" }
+    { image: "team-1.jpg", delay: "0.1s", name: "John Anderson", designation: "Senior Tour Guide" },
+    { image: "team-2.jpg", delay: "0.3s", name: "Sarah Williams", designation: "Adventure Specialist" },
+    { image: "team-3.jpg", delay: "0.5s", name: "Michael Chen", designation: "Cultural Expert" },
+    { image: "team-4.jpg", delay: "0.7s", name: "Emily Rodriguez", designation: "Travel Coordinator" }
   ];
 
   return (
@@ -30,8 +30,8 @@ const Team = () => {
                   <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Full Name</h5>
-                  <small>Designation</small>
+                  <h5 className="mb-0">{member.name}</h5>
+                  <small>{member.designation}</small>
                 </div>
               </div>
             </div>

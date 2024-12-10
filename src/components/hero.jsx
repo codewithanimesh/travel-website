@@ -14,7 +14,7 @@ const Hero = () => {
             Enjoy Your Vacation With Us
           </h1>
           <p className="fs-4 text-white mb-4 animated slideInDown">
-            Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum lorem sit
+            Discover amazing destinations and create unforgettable memories with our expert travel services
           </p>
           <div className="position-relative w-75 mx-auto animated slideInDown">
             <input

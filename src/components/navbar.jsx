@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import '../css/Navbar.css';
 
 const Navbar = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -10,8 +11,11 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-      <Link to="/" className="navbar-brand p-0">
-        <h1 className="text-primary m-0"><i className="fa fa-map-marker-alt me-3"></i>Tourist</h1>
+      <Link to="/" className="navbar-brand">
+        <img 
+          src="/img/bharatdev.png" 
+          alt="BharatDev Logo" 
+        />
       </Link>
       <button 
         className="navbar-toggler" 
