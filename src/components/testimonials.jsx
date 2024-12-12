@@ -8,30 +8,30 @@ const Testimonials = () => {
     {
       id: 1,
       image: "testimonial-1.jpg",
-      name: "Takashi Yamamoto",
+      name: "Priya Patel",
       location: "Mumbai, India",
-      review: "INIAD's innovative approach to education has transformed my understanding of technology. The hands-on projects and collaborative environment have prepared me well for my future career."
+      review: "Amazing travel experience! The tour package was perfectly planned and the service was exceptional. Will definitely recommend to my friends and family."
     },
     {
       id: 2,
       image: "testimonial-2.jpg",
-      name: "Yuki Tanaka",
+      name: "Rajesh Kumar",
       location: "Delhi, India",
-      review: "The interdisciplinary curriculum at INIAD helped me develop both technical skills and business acumen. The professors are highly knowledgeable and always supportive."
+      review: "The hotel accommodations were fantastic and the guided tours were very informative. The team made sure we had a comfortable and memorable trip."
     },
     {
       id: 3,
       image: "testimonial-3.jpg",
-      name: "Sakura Suzuki",
+      name: "Amit Sharma",
       location: "Bangalore, India",
-      review: "INIAD's focus on practical learning and industry collaboration provides students with real-world experience. The facilities and resources are cutting-edge."
+      review: "Excellent service from start to finish. The destinations were beautiful and the local guides were very knowledgeable. A perfect vacation experience!"
     },
     {
       id: 4,
       image: "testimonial-4.jpg",
-      name: "Hiroshi Sato",
+      name: "Meera Singh",
       location: "Chennai, India",
-      review: "As an educator at INIAD, I'm impressed by our students' enthusiasm for learning and innovation. Our unique educational model truly prepares them for the digital age."
+      review: "Had the best time during our family trip. The itinerary was well-planned and the staff was very helpful. Will definitely book again for our next vacation."
     }
   ];
 
@@ -65,7 +65,7 @@ const Testimonials = () => {
       <div className="container">
         <div className="text-center">
           <h6 className="section-title bg-white text-center text-primary px-3">Testimonial</h6>
-          <h1 className="mb-5">Our INIAD Community Says!!!</h1>
+          <h1 className="mb-5">Our Happy Clients Say!!!</h1>
         </div>
         <div style={{ '.slick-slide': { padding: '0 10px' } }}>
           <Slider {...settings}>

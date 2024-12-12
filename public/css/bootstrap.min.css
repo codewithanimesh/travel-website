@@ -3659,13 +3659,13 @@ fieldset:disabled .btn {
   display: block;
 }
 .navbar {
+  margin: -40px 0px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -3817,6 +3817,8 @@ fieldset:disabled .btn {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    margin-top:20px;
+    margin-bottom:-20px;
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;
@@ -6620,7 +6622,7 @@ fieldset:disabled .btn {
   padding-bottom: 1.5rem !important;
 }
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 0.5rem !important;
   padding-bottom: 3rem !important;
 }
 .pt-0 {
@@ -6856,7 +6858,7 @@ fieldset:disabled .btn {
   background-color: #fff !important;
 }
 .bg-white {
-  background-color: #fff !important;
+  background-color: #fff !important; 
 }
 .bg-transparent {
   background-color: rgba(0, 0, 0, 0) !important;

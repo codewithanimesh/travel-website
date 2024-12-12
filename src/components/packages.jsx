@@ -5,19 +5,19 @@ const Packages = () => {
     {
       image: "package-1.jpg",
       location: "Thailand",
-      price: "$149.00",
+      price: "12,299.00",
       delay: "0.1s"
     },
     {
       image: "package-2.jpg",
       location: "Indonesia",
-      price: "$139.00",
+      price: "11,499.00",
       delay: "0.3s"
     },
     {
       image: "package-3.jpg",
       location: "Malaysia",
-      price: "$189.00",
+      price: "15,599.00",
       delay: "0.5s"
     }
   ];
@@ -49,7 +49,7 @@ const Packages = () => {
                   </small>
                 </div>
                 <div className="text-center p-4">
-                  <h3 className="mb-0">{pkg.price}</h3>
+                  <h3 className="mb-0">INR {pkg.price}</h3>
                   <div className="mb-3">
                     {[...Array(5)].map((_, i) => (
                       <small key={i} className="fa fa-star text-primary"></small>

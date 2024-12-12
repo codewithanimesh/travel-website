@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+    <nav className=" navbar navbar-expand-lg navbar-light px-3 px-lg-5  py-lg-0">
       <Link to="/" className="navbar-brand">
         <img 
           src="/img/bharatdev.png" 

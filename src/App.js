@@ -25,7 +25,7 @@ const HomePage = () => (
     <Packages />
     <Booking />
     <Process />
-    <Team />
+   
     <Testimonials />
   </>
 );

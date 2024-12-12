@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="container-xxl py-5">
+    <div className="container-xxxl py-5" style={{ backgroundColor: "#e2f1ff" }}>
       <div className="container">
         <div className="row g-5">
           <div

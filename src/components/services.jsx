@@ -24,7 +24,10 @@ const Services = () => {
                 <div className="p-4">
                   <i className={`fa fa-3x fa-${service.icon} text-primary mb-4`}></i>
                   <h5>{service.title}</h5>
-                  <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                  {service.icon === "globe" && <p>Explore the world with our carefully curated worldwide tours, offering unforgettable experiences across diverse destinations.</p>}
+                  {service.icon === "hotel" && <p>Find and book the perfect accommodation with our comprehensive hotel reservation service, ensuring comfort and convenience.</p>}
+                  {service.icon === "user" && <p>Experience destinations like a local with our expert travel guides who provide insider knowledge and personalized tours.</p>}
+                  {service.icon === "cog" && <p>Let us handle your special events with our professional event management services, from planning to execution.</p>}
                 </div>
               </div>
             </div>
