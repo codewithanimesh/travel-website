@@ -7,10 +7,10 @@ const Topbar = () => {
         <div className="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
           <div className="d-inline-flex align-items-center" style={{ height: "45px" }}>
             <small className="me-3 text-light">
-              <i className="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA
+              <i className="fa fa-map-marker-alt me-2"></i>750B D&E block, Chandigarh City Centre, Zirakpur
             </small>
             <small className="me-3 text-light">
-              <i className="fa fa-phone-alt me-2"></i>+012 345 6789
+              <i className="fa fa-phone-alt me-2"></i>7590039733, 7707937533, 9317143533
             </small>
             <small className="text-light">
               <i className="fa fa-envelope-open me-2"></i>info@example.com
